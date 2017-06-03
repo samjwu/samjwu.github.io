@@ -1,4 +1,4 @@
-## Past Projects
+## Projects
  - [Sam's World](https://github.com/LionKingSimba/SamsWorld)
  - [Yet Another Dungeon Crawler](https://github.com/samjwu/YetAnotherDungeonCrawler)
  - [Alexa Chess](https://github.com/ishchow/alexa_chess)
