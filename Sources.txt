@@ -1,0 +1,13 @@
+http://fontawesome.io/
+https://ashleydw.github.io/lightbox/
+https://vestride.github.io/Shuffle/
+https://getbootstrap.com/
+https://jquery.com/
+https://omahpsd.com/
+https://fonts.google.com/
+https://www.w3schools.com/
+https://github.com/
+https://pages.github.com/
+https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
+https://github.com/jekyll/jekyll
+https://jekyllrb.com/
