@@ -1,19 +1,22 @@
-/* add custom style */
+/* Customize Colors */
+
 .bg-primary,
 .progress-bar,
 .navbar-inverse .navbar-brand:hover,
 .main-about .btn-clear:hover,
 .main-caption .btn-clear:hover
  {
-background-color: #ff9600;
+background-color: #ff9600; /*header underscore, bar chart bar, button selection, and navigation bar symbol color*/
 }
 
 .border-color, .navbar-nav > li.current > a, .navbar-nav > li > a:hover, .link-attr a:hover, .main-about .btn-clear:hover, .main-caption .btn-clear:hover{
-border-color:#ff9600;
+border-color:#ff9600; /*navigation bar selection and button border colors*/
 }
+
 .bg-black, .navbar-inverse{
- background-color:#1d2127;
+ background-color:#1d2127; /*navigation bar color*/
 }
+
 .color-primary, ul#filterOptions li.cur a, ul#filterOptions li a:hover, .link-attr a:hover{
-color: #ff9600;
+color: #ff9600; /*button text*/
 }

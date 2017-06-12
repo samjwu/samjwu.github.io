@@ -87,3 +87,6 @@ https://github.com/jekyll/jekyll
 https://github.com/jekyll/jekyll/blob/master/LICENSE
 https://www.youtube.com/watch?v=2MsN8gpT6jY/
 https://www.youtube.com/watch?v=bwThn0rxv7M/
+https://www.youtube.com/yt/about/
+https://www.youtube.com/t/terms
+https://www.google.com/intl/en/policies/privacy/
