@@ -1,3 +1,15 @@
+http://areaaperta.com/nicescroll
+https://github.com/inuyaksa/jquery.nicescroll
+https://opensource.org/licenses/mit-license.php
+http://trevordavis.net
+https://github.com/davist11/jQuery-One-Page-Nav
+https://github.com/davist11/jQuery-One-Page-Nav/blob/master/LICENSE
+http://gsgd.co.uk/sandbox/jquery/easing/
+http://gsgd.co.uk/splash/
+http://modernizr.com/download/#-csstransforms-csstransforms3d-csstransitions-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes
+https://github.com/modernizr/modernizr
+http://todogroup.org/opencodeofconduct/#Modernizr/conduct@modernizr.com
+https://opensource.org/licenses/MIT
 http://benalman.com/
 http://benalman.com/projects/jquery-throttle-debounce-plugin/
 http://benalman.com/about/license/
@@ -25,6 +37,7 @@ https://github.com/less/less.js/blob/master/LICENSE/
 http://sass-lang.com/
 http://sass-lang.com/guide/
 http://sass-lang.com/documentation/file.SASS_REFERENCE.html/
+http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax
 https://github.com/sass/sass/
 https://github.com/sass/sass/blob/stable/MIT-LICENSE/
 http://fontawesome.io/
