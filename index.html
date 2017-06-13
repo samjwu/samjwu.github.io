@@ -2,6 +2,7 @@
 <html lang="en">
 
 
+
 <head>
 
     <!-- Metadata -->
@@ -32,14 +33,39 @@
 </head>
 
 
+
 <body>
+
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse" role="navigation">
+        
+        <!-- Initials -->
         <div class="navbar-header">
-            <a class="navbar-brand bg-primary" href="#about">SW</a>
-        </div>
+            <a class="navbar-brand bg-primary" href="#home">SW</a>
+            <!-- Button for Screen Readers to Toggle Navigation Bar -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavCol">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+        	</button>
+        </div> <!-- navbar-header -->
+
+        <!-- Navigation Bar Hyperlinks -->
+        <div class="collapse navbar-collapse" id="NavCol">
+        	<ul class="nav navbar-nav navbar-right"> 
+				<li class="current"><a href="#home" class="linear">Home</a></li>
+				<li><a href="#about" class="linear">About</a></li>
+				<li><a href="#work" class="linear">Projects</a></li>
+				<li><a href="#game" class="linear">Activities</a></li>
+				<li><a href="#anim" class="linear">Animation</a></li>
+				<li><a href="#audio" class="linear">Audio</a></li>
+				<li><a href="#art" class="linear">Art</a></li>
+				<li><a href="#contact" class="linear">Contact</a></li>
+        	</ul>
+        </div><!-- navbar-collapse -->
+
     </nav>
+
 
     <!-- Content -->
     <section class="w3-container w3-center" style="max-width:10000px">
@@ -61,6 +87,7 @@
         <br>
     </section>
 
+
     <!-- Articles -->
     <section class="w3-row-padding w3-center">
         <article class="w3-third">
@@ -76,6 +103,7 @@
         <img src="gimp.jpg" alt="" style="width:200px;height:200px;">
         </article>
     </section>
+
 
     <!-- Slide Show -->
     <section>
@@ -96,7 +124,9 @@
         <script src="slideshow.js"></script>
     </section>
 
+
     <br>
+
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
@@ -104,7 +134,9 @@
         <a href="mailto:sjwu@ualberta.ca"><i class="fa fa-envelope-o"></i></a>
     </footer>
 
+
 </body>
+
 
 
 </html>
