@@ -59,6 +59,7 @@ font-size:14px;
 
 /* =============================== header ===================================== */
 .header{
+/* ideal is 1280px x 800px */
 background: url(../img/red.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
 -moz-background-size: cover;
