@@ -181,7 +181,8 @@
 				});
 			}
 
-			e.preventDefault();
+			//https://stackoverflow.com/questions/34465129/vanilla-bootstrap-navbar-links-not-clickable?noredirect=1&lq=1
+			//e.preventDefault(); //prevents navbar from going to href link
 		},
 		
 		scrollChange: function() {
