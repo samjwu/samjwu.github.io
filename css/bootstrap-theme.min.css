@@ -1,16 +1,19 @@
 /* Customize Colors */
 
+/*light orange ff9600*/
+/*pure chroma orange ff7f00*/
+
 .bg-primary,
 .progress-bar,
 .navbar-inverse .navbar-brand:hover,
 .main-about .btn-clear:hover,
 .main-caption .btn-clear:hover
  {
-background-color: #ff9600; /*header underscore, bar chart bar, button selection, and navigation bar symbol color*/
+background-color: #ff7f00; /*header underscore, bar chart bar, button selection, and navigation bar symbol color*/
 }
 
 .border-color, .navbar-nav > li.current > a, .navbar-nav > li > a:hover, .link-attr a:hover, .main-about .btn-clear:hover, .main-caption .btn-clear:hover{
-border-color:#ff9600; /*navigation bar selection and button border colors*/
+border-color:#ff7f00; /*navigation bar selection and button border colors*/
 }
 
 .bg-black, .navbar-inverse{
@@ -18,5 +21,5 @@ border-color:#ff9600; /*navigation bar selection and button border colors*/
 }
 
 .color-primary, ul#filterOptions li.cur a, ul#filterOptions li a:hover, .link-attr a:hover{
-color: #ff9600; /*button text*/
+color: #ff7f00; /*button text*/
 }
