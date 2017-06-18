@@ -1,7 +1,10 @@
 //Slideshow - auto change image
+
+
 var slideindex = 0;
 var waittime = 1000; //in milliseconds
 slideshow();
+
 
 function slideshow() {
     var i;
