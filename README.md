@@ -1,11 +1,11 @@
-#Website(https://samjwu.github.io/)
+# [Website](https://samjwu.github.io/)
 
-## Projects(https://samjwu.github.io/projects.html)
+## [Projects](https://samjwu.github.io/projects.html)
 
-## Activities(https://samjwu.github.io/activities.html)
+## [Activities](https://samjwu.github.io/activities.html)
  
-## Animation(https://samjwu.github.io/animation.html)
+## [Animation](https://samjwu.github.io/animation.html)
 
-## Audio(https://samjwu.github.io/audio.html)
+## [Audio](https://samjwu.github.io/audio.html)
 
-## Art(https://samjwu.github.io/art.html)
+## [Art](https://samjwu.github.io/art.html)
