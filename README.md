@@ -1,16 +1,11 @@
-## Projects
- - [Sam's World](https://github.com/LionKingSimba/SamsWorld)
- - [Yet Another Dungeon Crawler](https://github.com/samjwu/YetAnotherDungeonCrawler)
- - [Alexa Chess](https://github.com/ishchow/alexa_chess)
- - [Pixelmon Adventures](https://github.com/ishchow/pixelmon-adventures)
- - [Hangman](https://github.com/samjwu/Hangman)
+#Website(https://samjwu.github.io/)
 
-## Activities
- - [ClickBait](https://samjwu.github.io/ClickBait/)
- - [Pong](https://samjwu.github.io/Pong/)
+## Projects(https://samjwu.github.io/projects.html)
+
+## Activities(https://samjwu.github.io/activities.html)
  
-## Animation
+## Animation(https://samjwu.github.io/animation.html)
 
-## Audio
+## Audio(https://samjwu.github.io/audio.html)
 
-## Art
+## Art(https://samjwu.github.io/art.html)
