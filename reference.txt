@@ -1,15 +1,23 @@
+jQuery.NiceScroll
 http://areaaperta.com/nicescroll
 https://github.com/inuyaksa/jquery.nicescroll
 https://opensource.org/licenses/mit-license.php
+
+jQuery One Page Nav
 http://trevordavis.net
 https://github.com/davist11/jQuery-One-Page-Nav
 https://github.com/davist11/jQuery-One-Page-Nav/blob/master/LICENSE
+
+jQuery Easing Plugin
 http://gsgd.co.uk/sandbox/jquery/easing/
 http://gsgd.co.uk/splash/
+
+Modernizr
 http://modernizr.com/download/#-csstransforms-csstransforms3d-csstransitions-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes
 https://github.com/modernizr/modernizr
 http://todogroup.org/opencodeofconduct/#Modernizr/conduct@modernizr.com
 https://opensource.org/licenses/MIT
+
 http://benalman.com/
 http://benalman.com/projects/jquery-throttle-debounce-plugin/
 http://benalman.com/about/license/
