@@ -1,3 +1,6 @@
+SPLASH
+1920 x 1080
+
 SQUARE
 med: 640 x 640
 large: 800 x 800
