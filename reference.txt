@@ -1,5 +1,4 @@
 jQuery.NiceScroll
-http://areaaperta.com/nicescroll
 https://github.com/inuyaksa/jquery.nicescroll
 https://opensource.org/licenses/mit-license.php
 
@@ -18,14 +17,20 @@ https://github.com/modernizr/modernizr
 http://todogroup.org/opencodeofconduct/#Modernizr/conduct@modernizr.com
 https://opensource.org/licenses/MIT
 
+jQuery Throttle/Debounce
 http://benalman.com/
 http://benalman.com/projects/jquery-throttle-debounce-plugin/
 http://benalman.com/about/license/
+
+Isotope
 https://isotope.metafizzy.co/
 https://isotope.metafizzy.co/license.html
+
+Sticky
 http://stickyjs.com/
 https://github.com/garand/sticky
 https://github.com/garand/sticky/blob/master/LICENSE.md
+
 http://flesler.blogspot.com
 https://github.com/flesler/jquery.scrollTo
 https://github.com/flesler/jquery.scrollTo/blob/master/LICENSE
