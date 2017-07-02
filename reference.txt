@@ -31,9 +31,11 @@ http://stickyjs.com/
 https://github.com/garand/sticky
 https://github.com/garand/sticky/blob/master/LICENSE.md
 
+jQuery.scrollTo
 http://flesler.blogspot.com
 https://github.com/flesler/jquery.scrollTo
 https://github.com/flesler/jquery.scrollTo/blob/master/LICENSE
+
 https://razorjack.net/quicksand/
 http://github.com/razorjack/quicksand/
 http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt/
