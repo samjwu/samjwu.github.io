@@ -72,20 +72,31 @@ https://developers.google.com/terms/
 https://developers.google.com/terms/site-terms
 https://developers.google.com/terms/site-policies
 
+Bootstrap Lightbox
 https://ashleydw.github.io/lightbox/
 https://github.com/ashleydw/lightbox/
 https://github.com/ashleydw/lightbox/blob/master/LICENSE/
+
+Shuffle
 https://vestride.github.io/Shuffle/
 https://github.com/Vestride/Shuffle/
 https://github.com/Vestride/Shuffle/blob/master/LICENSE/
+
+Bootstrap
 https://getbootstrap.com/
 https://github.com/twbs/bootstrap/
 https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE/
+
+jQuery
 https://jquery.com/
 https://github.com/jquery/jquery
 https://jquery.org/license/
+
+FlexSlider
 http://www.woothemes.com/flexslider/
 https://woocommerce.com/terms-conditions/
+
+W3Schools
 https://www.w3schools.com/
 https://www.w3schools.com/tags/default.asp/
 https://www.w3schools.com/html/html_examples.asp/
@@ -96,6 +107,8 @@ https://www.w3schools.com/bootstrap/default.asp/
 https://www.w3schools.com/about/default.asp
 https://www.w3schools.com/about/about_copyright.asp
 https://www.w3schools.com/about/about_privacy.asp
+
+Github/Github Pages
 https://github.com/
 https://pages.github.com/
 https://help.github.com/articles/what-is-github-pages/
@@ -106,9 +119,13 @@ https://github.com/about
 https://help.github.com/articles/github-terms-of-service/
 https://help.github.com/articles/github-terms-of-service/#h-additional-terms-for-github-pages
 https://help.github.com/articles/github-privacy-statement/
+
+Jekyll
 https://jekyllrb.com/
 https://github.com/jekyll/jekyll
 https://github.com/jekyll/jekyll/blob/master/LICENSE
+
+Youtube
 https://www.youtube.com/watch?v=2MsN8gpT6jY/
 https://www.youtube.com/watch?v=bwThn0rxv7M/
 https://www.youtube.com/yt/about/
