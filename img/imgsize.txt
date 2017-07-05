@@ -6,6 +6,7 @@ med: 640 x 640
 large: 800 x 800
 
 RECTANGLE
+default: 800 x 600
 small: 640 x 360
 med: 800 x 450
 large: 960 x 540
