@@ -25,6 +25,7 @@
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/waveform.css" rel="stylesheet">
     <link href="css/ekko-lightbox.css" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -84,86 +85,95 @@
 				<div class="line-title bg-primary"></div> <!-- header underscore -->
 			</div> <!-- build title-page -->
 		   </div><!-- end col-md-10 -->
-		</div><!-- end row -->
+        </div><!-- end row -->
 
-        <!-- Thumbnails and Links -->
-        <div class="col-md-12"> <!-- centering -->
-		<div class="folio-content clearfix">
-			<div class="row">
-			<div class="container_folio clearfix gallery" id="grid">
+        <div id="audioplayer">
+            <div id="waveform">
+                <div class="progress progress-striped active" id="progress-bar">
+                    <div class="progress-bar progress-bar-info"></div>
+                </div>
+            </div>
 
-                <!-- Synth Chorale -->
-                <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "art"]'>
-                <div class="folio-img"> <!-- align content -->
-                    <div class="work-item">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                            <div class="link-attr"> <!-- font awesome -->
-                                <a href="img/aud/synthchorale.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Synth Chorale" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                <a href="https://www.orfium.com/track/597563/synth-chorale-sjwu/" class="link-chain animated linear"><i class="fa fa-chain"></i></a>
-                            </div> <!-- link-attr -->
-                            <img class="linear img-portfolio img-responsive" src="img/aud/synthchorale.jpg" alt="Image">
-                            <div class="folio-caption">
-                                <i class="fa fa-caret-up"></i>
-                                <p>Synth Chorale</p>
-                            </div> <!-- folio-caption -->
-                            </div> <!-- thumb-img -->
-                        </div> <!-- thumbnail -->
-                    </div> <!-- work-item -->
-                </div> <!-- folio-img -->
-                </div> <!-- col-xs-12 -->
+            <div class="controls">
+                <!-- <button class="btn btn-primary" data-action="play">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Play
+                    /
+                    <i class="glyphicon glyphicon-pause"></i>
+                    Pause
+                </button> -->
+                <button class="btn btn-success btn-block" id="playPause">
+                    <span id="play">
+                        <i class="glyphicon glyphicon-play"></i>
+                        Play
+                    </span>
 
-		   </div> <!-- container_folio -->
-		   </div> <!-- row -->
-		</div> <!-- end folio content -->
-		</div> <!-- end col -->
+                    <span id="pause" style="display: none">
+                        <i class="glyphicon glyphicon-pause"></i>
+                        Pause
+                    </span>
+                </button>
+
+                <br>
+                Equalizer Sliders 
+                <br><br>
+
+                <div id="equalizer">
+                    
+                </div>
+            </div>
+
+            <div class="list-group" id="playlist">
+                <p>
+                Playlist
+                </p>
+
+                <a href="./audio/EDM.mp3" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    EDM
+                    <span class="badge">1:06</span>
+                </a>
+
+                <a href="./audio/Trance.mp3" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Trance
+                    <span class="badge">1:34</span>
+                </a>
+
+                <a href="./audio/Grunge.mp3" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Grunge Rock
+                    <span class="badge">4:29</span>
+                </a>
+
+                <a href="./audio/HER.mp3" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Hard Electronic Rock
+                    <span class="badge">4:19</span>
+                </a>
+
+                <a href="./audio/PM.mp3" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Progressive Metal
+                    <span class="badge">2:39</span>
+                </a>
+
+                <a href="./audio/SoftProgRock.mp3" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Soft Progressive Rock
+                    <span class="badge">4:32</span>
+                </a>
+
+                <a href="./audio/SynthPopRock.mp3" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Synth Pop Rock
+                    <span class="badge">5:18</span>
+                </a>
+            </div>
+        </div>
 
     </div> <!--end container-->
     </div> <!-- audio -->
-
-        <!-- Eclectic Electronic Dance Music -->
-        <h1>EDM</h1>
-            <audio controls>
-                <source src="audio/EDM.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-        <h1>Trance</h1>
-            <audio controls>
-                <source src="audio/TranceSynth.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-        <h1>Grunge Rock</h1>
-            <audio controls>
-                <source src="audio/Grunge.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-        <h1>Hard Electronic Rock</h1>
-            <audio controls>
-                <source src="audio/HardSynthRock.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-        <h1>Progressive Metal</h1>
-            <audio controls>
-                <source src="audio/ProgMetal.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-        <h1>Soft Progressive Rock</h1>
-            <audio controls>
-                <source src="audio/SoftProgRock.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-        <h1>Synthesized Pop Rock</h1>
-            <audio controls>
-                <source src="audio/SynthPopRock.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
@@ -174,6 +184,9 @@
 
 
     <!-- JavaScript -->
+    <!-- audio player -->
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="js/waveform.js"></script>
     <!-- for menus and scrolling -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
