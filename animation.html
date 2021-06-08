@@ -31,6 +31,10 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
+    <!-- Videojs CSS -->
+    <link href="./node_modules/video.js/dist/video-js.css" rel="stylesheet" />
+    <link href="./node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.vertical.css" rel="stylesheet">
+
     <!-- Animation CSS -->
     <link href="css/animation.css" rel="stylesheet"></link>
 
@@ -81,13 +85,45 @@
 
         <!-- Animation Header -->
 		<div class="row">
-        	<div class="col-md-10  col-md-offset-1"> <!-- centering -->
+        	<div class="col-md-10 col-md-offset-1"> <!-- centering -->
 		    <div class="build title-page"> <!-- bold header -->
 				<h2 class="text-center">Animation</h2>	
 				<div class="line-title bg-primary"></div> <!-- header underscore -->
 			</div> <!-- build title-page -->
-		   </div><!-- end col-md-10 -->
-		</div><!-- end row -->
+		   </div> <!-- end col-md-10 -->
+        </div> <!-- end row -->
+        
+        <div class="row">
+            <div class="col-md-12 center-text">
+                <p>
+                    A playlist of some animations I made in Blender.
+                    <br>
+                    At the bottom are links to any animations I put on Youtube.
+                </p>
+            </div>
+        </div> 
+
+        <!-- Video Player -->
+        <div class="row">
+            <div class="player-container">
+                <video
+                    id="video"
+                    class="video-js"
+                    width="800"
+                    height="600"
+                    controls
+                >
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
+
+                <div class="vjs-playlist"></div>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br>
 
         <!-- Thumbnails and Links -->
         <div class="col-md-12"> <!-- centering -->
@@ -102,7 +138,7 @@
                         <div class="thumbnail">
                             <div class="thumb-img">
                             <div class="link-attr"> <!-- font awesome -->
-                                <a href="img/anm/halo.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Halo" class="link-search animated linear"><i class="fa fa-search"></i></a>
+                                <a href="img/anm/halo.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="A halo-shaped audio visualizer for one of my songs: Synth Chorale" class="link-search animated linear"><i class="fa fa-search"></i></a>
                                 <a href="https://youtu.be/PKWCLAkA5c8" class="link-chain animated linear"><i class="fa fa-chain"></i></a>
                             </div> <!-- link-attr -->
                             <img class="linear img-portfolio img-responsive" src="img/anm/halo.jpg" alt="Image">
@@ -124,35 +160,6 @@
     </div> <!--end container-->
     </div> <!-- animation -->
 
-
-    <!-- Plasma -->
-    <h1 class="text-center">Plasma</h1>
-    <video class="video-center" width="400" height="300" controls loop>
-        <source src="anim/plasma.mp4" type="video/mp4">
-        Your browser does not support this video format.
-    </video>
-
-    <!-- Candle -->
-    <h1 class="text-center">Candle</h1>
-    <video class="video-center" width="400" height="300" controls loop>
-        <source src="anim/candle.mp4" type="video/mp4">
-        Your browser does not support this video format.
-    </video>
-    
-    <!-- UofA -->
-    <h1 class="text-center">UofA Logo</h1>
-    <video class="video-center" width="400" height="300" controls loop>
-        <source src="anim/uofa.mp4" type="video/mp4">
-        Your browser does not support this video format.
-    </video>
-
-    <!-- Globe -->
-    <h1 class="text-center">Globe</h1>
-    <video class="video-center" width="400" height="300" controls loop>
-        <source src="anim/globe.mp4" type="video/mp4">
-        Your browser does not support this video format.
-    </video>
-
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
         <a href="https://www.google.ca/maps/place/Edmonton,+AB/@53.5557956,-113.6340294,11z/data=!3m1!4b1!4m5!3m4!1s0x53a0224580deff23:0x411fa00c4af6155d!8m2!3d53.544389!4d-113.4909267"><i class="fa fa-map-marker"></i></a>
@@ -162,6 +169,79 @@
 
 
     <!-- JavaScript -->
+    <!-- videojs -->
+    <script src="./node_modules/video.js/dist/video.js"></script>
+    <script src="./node_modules/videojs-playlist/dist/videojs-playlist.js"></script>
+    <script src="./node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.js"></script>
+    <script>
+        var player = videojs('video');
+
+        player.playlist([
+            {
+                name: 'Plasma',
+                description: 'Fluid Animation of Blue Plasma with Glowing/Emission Effect',
+                duration: 4,
+                sources: [{
+                    src: 'anim/plasma.mp4',
+                    type: 'video/mp4'
+                }],
+                thumbnail: [
+                    {
+                        srcset: 'img/anm/plasma.jpg',
+                        type: 'image/jpeg',
+                        media: '(max-width: 370px;)'
+                    }
+                ]
+            }, 
+            {
+                name: 'Candle',
+                description: 'Fluid Animation of Flickering Flame',
+                duration: 4,
+                sources: [{
+                    src: 'anim/candle.mp4',
+                    type: 'video/mp4'
+                }],
+                thumbnail: [
+                    {
+                        src: 'img/anm/candle.jpg'
+                    }
+                ]
+            }, 
+            {
+                name: 'Globe',
+                description: 'Animation of Rotating Globe',
+                duration: 8,
+                sources: [{
+                    src: 'anim/globe.mp4',
+                    type: 'video/mp4'
+                }],
+                thumbnail: [
+                    {
+                        src: 'img/anm/globe.jpg'
+                    }
+                ]
+            },
+            {
+                name: 'UofA',
+                description: 'Animation of Rotating UofA Logo',
+                duration: 1,
+                sources: [{
+                    src: 'anim/uofa.mp4',
+                    type: 'video/mp4'
+                }],
+                thumbnail: [
+                    {
+                        src: 'img/anm/uofa.jpg'
+                    }
+                ]
+            }
+        ]);
+
+        player.playlist.autoadvance(0);
+        
+        player.playlistUi();
+    </script> 
+
     <!-- for menus and scrolling -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>

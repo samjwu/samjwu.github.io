@@ -1,5 +1,17 @@
 .video-center {
+    display: block
+}
+
+.player-container {
+    background-color: black;
     margin-left: auto;
     margin-right: auto;
-    display: block
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vjs-playlist-vertical {
+    width: 200px;
+    height: 600px;
+    float: right;
 }

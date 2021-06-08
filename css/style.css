@@ -264,7 +264,7 @@ padding:120px 0;
 background:#f2f2f2;
 }
 
-/* ================================================= about us ================================================== */
+/* ================================================= about ================================================== */
 
 .about-content p {
 font-size:14px;
@@ -294,6 +294,14 @@ padding: 14px 24px;
 
 .main-about .btn-clear:hover {
 color:#fff;
+}
+
+.center-text {
+  padding: 1em;
+}
+
+.center-text p {
+text-align: center;
 }
 
 	/*==================progress========================*/
