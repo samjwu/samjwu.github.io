@@ -8,10 +8,6 @@ https://github.com/samjwu/OpenMovieDatabaseSearch
 
 
 
-https://github.com/samjwu/Connect4
-
-
-
 https://github.com/samjwu/AudioPlayer
 
 https://github.com/samjwu/ImageSlider
