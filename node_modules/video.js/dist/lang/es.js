@@ -10,7 +10,7 @@ videojs.addLanguage('es', {
   "Loaded": "Cargado",
   "Progress": "Progreso",
   "Fullscreen": "Pantalla completa",
-  "Non-Fullscreen": "Pantalla no completa",
+  "Exit Fullscreen": "Pantalla no completa",
   "Mute": "Silenciar",
   "Unmute": "No silenciado",
   "Playback Rate": "Velocidad de reproducción",
@@ -83,5 +83,8 @@ videojs.addLanguage('es', {
   "Caption Settings Dialog": "Diálogo de configuración de leyendas",
   "Beginning of dialog window. Escape will cancel and close the window.": "Comienzo de la ventana de diálogo. La tecla Escape cancelará la operación y cerrará la ventana.",
   "End of dialog window.": "Final de la ventana de diálogo.",
-  "{1} is loading.": "{1} se está cargando."
+  "{1} is loading.": "{1} se está cargando.",
+  "Exit Picture-in-Picture": "Salir de imagen sobre imagen",
+  "Picture-in-Picture": "Imagen sobre imagen",
+  "No content": "Sin contenido"
 });
