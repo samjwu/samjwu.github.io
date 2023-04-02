@@ -105,7 +105,8 @@ img {
   -moz-box-shadow: none;
   -o-box-shadow: none;
   box-shadow:none;
-  zoom: 1;
+  transform:scale(1);
+  transform-origin: 0 0;
 }
 
 #flex-head h2 {
