@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //     // Create filters
     //     let filters = EQ.map(function(band) {
-    //         let filter = wavesurfer.backend.ac.createBiquadFilter();
+    //         let filter = wavesurfer.backend.ac.createBiquadFilter(); // method no longer supported
     //         filter.type = band.type;
     //         filter.gain.value = 0;
     //         filter.Q.value = 1;
