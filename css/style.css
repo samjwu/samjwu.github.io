@@ -206,6 +206,13 @@ a.navbar-brand {
   background:rgba(255,255,255,0.1);
 }
 
+.hamburger-menu {
+  display:block;
+  width:22px;
+  height:15px;
+  border-radius:1px
+}
+
 /* ================================ title page ==================================== */
 .title-page {
   color:#7a7a7a;
